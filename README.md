@@ -9,5 +9,5 @@ java11
 tomcat9  
 postgresql11  
   
-現在はSpring　BootとAndroid開発（Java）を本で独学中。  
+現在はSpringBootとAndroid開発（Java）を本で独学中。  
 随時アプリ追加予定。  
