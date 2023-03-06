@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+html, body {
+	width:100%;
+	margin: 0 auto;
+}
+
+main{
+	width: 100%;
+	height: 75vh;
+	display: flex;
+	align-items: center;
+}
+
+.headerWrapper {
+	width: 100%;
+	height: 10vh;
+	background-color: skyblue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header, .footer {
+	text-align: center;
+}
+
+.footer {
+	top:100vh;
+	width:100%;
+	position: sticky; /*←絶対位置*/
+	bottom: 0; /*下に固定*/
+}
+
+.footerInner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.IndexWrapper {
+	display: flex;
+	align-items: center;
+	flex-flow: column;
+	margin: 0 auto;
+}
+
+.comInfoWrapper {
+	display: flex;
+	align-items: center;
+	flex-flow: column;
+	margin: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.FormWrapper, Form {
+	width: 100%;
+	text-align: center;
+}
+
+th, td {
+	text-align: center;
+}
+
+th {
+	border: 1px black solid;
+}
+
+td {
+	border: 1px #808080 solid;
+}
+
+.no {
+	width: 4%;
+}
+
+.com {
+	width: 22%;
+}
+
+.fContact, .lContact, .cDate {
+	width: 10%;
+}
+
+.site {
+	width: 10%;
+}
+
+.status {
+	width: 12%;
+}
+
+.memo {
+	width: 22%;
+}
